@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
     <id>io.github.hafmed.Hydraulics-Channel-GVF</id>
-    <name>Thakir Prayer Times</name>
-    <summary>A desktop application to calculate prayer times for Algeria cities and author in the World.</summary>
+    <name>Hydraulics Channel GVF</name>
+    <summary>Application used to compute water surface profiles in a prismatic channel for gradually varied flow.</summary>
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>GPL-3.0-or-later</project_license>
     <supports>
@@ -16,26 +16,63 @@
         <category>Science</category>
     </categories>
     <keywords>
-        <keyword>Prayer</keyword>
-        <keyword>Iclamic</keyword>
-        <keyword>Arabic</keyword>
-        <keyword>Algeria</keyword>
-        <keyword>times</keyword>
+        <keyword>Simulation</keyword>
+        <keyword xml:lang="fr">Simulation</keyword>
+        <keyword>Free surface flow</keyword>
+        <keyword xml:lang="fr">Ecoulement à surface libre</keyword>
+        <keyword>gradually varied</keyword>
+        <keyword xml:lang="fr">graduellement varié</keyword>
+        <keyword>Flow</keyword>
+        <keyword xml:lang="fr">Ecoulement</keyword>
+        <keyword>GVF</keyword>
+        <keyword xml:lang="fr">EGV</keyword>
+        <keyword>Backwater curve</keyword>
+        <keyword xml:lang="fr">Courbe de remous</keyword>
+        <keyword>Hydraulics</keyword>
+        <keyword xml:lang="fr">Hydraulique</keyword>
+        <keyword>river</keyword>
+        <keyword xml:lang="fr">rivière</keyword>
+        <keyword>prismatic channel</keyword>
+        <keyword xml:lang="fr">canal prismatique</keyword>
+        <keyword>numerical method</keyword>
+        <keyword xml:lang="fr">méthode numérique</keyword>
+        <keyword>Computational</keyword>
+        <keyword xml:lang="fr">Calcul informatique</keyword>
+        <keyword>calcul</keyword>
+        <keyword xml:lang="fr">calcul</keyword>
         <keyword>Qt</keyword>
+        <keyword xml:lang="fr">Qt</keyword>
         <keyword>c++</keyword>
+        <keyword xml:lang="fr">c++</keyword>
     </keywords>
     <description>
         <p>
-            Thakir Prayer Times is a desktop application to calculate prayer times for Algeria cities and author in the World:
+            Application used to compute water surface profiles in a prismatic channel for gradually varied flow.
+        </p>
+        <p xml:lang="fr">
+            Application utilisée pour calculer les profils de surface d'eau (Courbes de Remous) dans un canal prismatique pour un écoulement graduellement varié.
+        </p>
+        <p>
+            Features:
+        </p>
+        <p xml:lang="fr">
+            Caractéristiques :
         </p>
         <ul>
-            <li>Accurate Prayer time calculator based on your current location;</li>
-            <li>With Azan/Adhan: visual and audio notifications/calls for prayer;</li>
-            <li>Quibla direction;</li>
-            <li>Enable/Disable Alert before Adhan;</li>
-            <li>Enable/Disable autostart in login;</li>
-            <li>Arabic GUI;</li>
+            <li>Calculate water-surface elevation;</li>
+            <li>Use different numerical methods;</li>
+            <li>Export results as graphics or as tables;</li>
+            <li>Use SI or imperial system of units;</li>
+            <li>English and French GUI;</li>
             <li>.....</li>
+        </ul>
+        <ul xml:lang="fr">
+            <li xml:lang="fr">Calcule l'élévation de la surface de l'eau (Courbe de remous) ;</li>
+            <li xml:lang="fr">Utilise différentes méthodes numériques ;</li>
+            <li xml:lang="fr">Exporte les résultats sous forme de graphiques ou de tableaux ;</li>
+            <li xml:lang="fr">Utilise le système d'unités SI ou impérial ;</li>
+            <li xml:lang="fr">Interface en français et en anglais ;</li>
+            <li xml:lang="fr">.....</li>
         </ul>
     </description>
     <launchable type="desktop-id">io.github.hafmed.Hydraulics-Channel-GVF.desktop</launchable>
@@ -44,8 +81,10 @@
             <url type="details">https://sites.google.com/site/courshaf/</url>
             <description>
                 <p>First release on Flathub</p>
+                <p xml:lang="fr">Premier lancement sur la plateforme Flathub</p>
                 <ul>
                     <li>Minor bug fixes</li>
+                    <li xml:lang="fr">Corrections de bugs mineurs</li>
                 </ul>
             </description>
         </release>
@@ -57,19 +96,27 @@
     <update_contact>thakir.dz@gmail.com
     </update_contact>
     <url type="homepage">https://sites.google.com/site/courshaf/</url>
-    <url type="bugtracker">https://github.com/hafmed/Thakir-Prayer-Times/issues</url>
+    <url type="bugtracker">https://github.com/hafmed/Hydraulics-Channel-GVF/issues</url>
     <screenshots>
         <screenshot type="default">
-            <image>https://raw.githubusercontent.com/hafmed/Thakir-Prayer-Times/refs/heads/main/Screenshot/Screenshot_1.png</image>
-            <caption>Prayer times for City</caption>
+            <image>https://raw.githubusercontent.com/hafmed/Hydraulics-Channel-GVF/refs/heads/main/Screenshot/Screenshot_1.png</image>
+            <caption>Main window (Channel configuration)</caption>
+            <caption xml:lang="fr">Fenêtre principale (Paramètres du canal)</caption>
         </screenshot>
         <screenshot>
-            <image>https://raw.githubusercontent.com/hafmed/Thakir-Prayer-Times/refs/heads/main/Screenshot/Screenshot_2.png</image>
-            <caption>Page of settings and configuration of all options (cities, Methods of calculation, Autostart, ....)</caption>
+            <image>https://raw.githubusercontent.com/hafmed/Hydraulics-Channel-GVF/refs/heads/main/Screenshot/Screenshot_2.png</image>
+            <caption>Choice of method of simulation and boundary conditions</caption>
+            <caption xml:lang="fr">Choix de la méthode de simulation et conditions aux limites.</caption>
         </screenshot>
         <screenshot>
-            <image>https://raw.githubusercontent.com/hafmed/Thakir-Prayer-Times/refs/heads/main/Screenshot/Screenshot_3.png</image>
-            <caption>Users can select different Adhan (call to prayer) sounds and reminder settings for all prayer time</caption>
+            <image>https://raw.githubusercontent.com/hafmed/Hydraulics-Channel-GVF/refs/heads/main/Screenshot/Screenshot_3.png</image>
+            <caption>Results of the simulation in a table and plot in graphics</caption>
+            <caption xml:lang="fr">Les résultats de la simulation sont présentés dans un tableau et illustrés dans un graphique.</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/hafmed/Hydraulics-Channel-GVF/refs/heads/main/Screenshot/Screenshot_4.png</image>
+            <caption>Physical configuration</caption>
+            <caption xml:lang="fr">Configuration physique.</caption>
         </screenshot>
     </screenshots>
 </component>

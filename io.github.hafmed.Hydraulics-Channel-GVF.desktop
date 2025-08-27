@@ -1,14 +1,13 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=Thakir Prayer Times
-Comment=A desktop application to calculate prayer times for Algeria cities and author in the World.
+Name=Hydraulics Channel GVF
+Comment=Gradually Varied Flow (GVF) simulation.
 Categories=Education;Science;Utility;
 Icon=io.github.hafmed.Hydraulics-Channel-GVF
 Exec=hydraulics_channel_gvf
 Terminal=false
-Keywords=Prayer;times;Islamic;Arabe;Algeria
-
-Name[fr]=ذكر لاوقات الصلاة
-Comment[fr]=برنامج اذان بسيط
-
+Keywords=Simulation;Flow;gradually varied;Backwater curve;Hydraulics;river;channel;prismatic channel;numerical method;Computational;calcul;Free surface flow;
+Keywords[fr]=Simulation;Ecoulement;graduellement varié;Courbe de remous;Hydraulique;rivière;canal;canal prismatique;méthode numérique;calcul;Ecoulement à surface libre;
+Name[fr]=Hydraulics Channel GVF
+Comment[fr]=Simulation d'écoulement à surface libre graduellement varié.
