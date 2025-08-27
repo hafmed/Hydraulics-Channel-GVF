@@ -65,8 +65,6 @@
             <li>Use SI or imperial system of units;</li>
             <li>English and French GUI;</li>
             <li>.....</li>
-        </ul>
-        <ul xml:lang="fr">
             <li xml:lang="fr">Calcule l'élévation de la surface de l'eau (Courbe de remous) ;</li>
             <li xml:lang="fr">Utilise différentes méthodes numériques ;</li>
             <li xml:lang="fr">Exporte les résultats sous forme de graphiques ou de tableaux ;</li>
