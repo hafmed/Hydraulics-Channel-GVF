@@ -1,7 +1,6 @@
     app-id: io.github.hafmed.Hydraulics-Channel-GVF
     runtime: org.kde.Platform
-    separate-locales: false
-    runtime-version: "6.9" # Or the appropriate Qt version
+    runtime-version: "6.9"
     sdk: org.kde.Sdk
     command: hydraulics_channel_gvf
     finish-args:
@@ -12,6 +11,10 @@
     modules:
       - name: hydraulics_channel_gvf
         buildsystem: cmake-ninja
+        sources:
+          - type: archive
+            url: https://github.com/hafmed/Hydraulics-Channel-GVF/archive/refs/tags/v4.5.9-release2.tar.gz
+            sha256: ccdb8200e10682f0457bed2d9c89f7270c87f50e963ae1e477c02b30a46b706b
         sources:
           - type: dir
             path: /home/hafmed/Documents/25-26/Hydraulics-Channel-GVF/
