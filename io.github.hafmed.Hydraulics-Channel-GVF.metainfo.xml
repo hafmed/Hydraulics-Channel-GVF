@@ -64,13 +64,11 @@
             <li>Export results as graphics or as tables;</li>
             <li>Use SI or imperial system of units;</li>
             <li>English and French GUI;</li>
-            <li>.....</li>
             <li xml:lang="fr">Calcule l'élévation de la surface de l'eau (Courbe de remous) ;</li>
             <li xml:lang="fr">Utilise différentes méthodes numériques ;</li>
             <li xml:lang="fr">Exporte les résultats sous forme de graphiques ou de tableaux ;</li>
             <li xml:lang="fr">Utilise le système d'unités SI ou impérial ;</li>
             <li xml:lang="fr">Interface en français et en anglais ;</li>
-            <li xml:lang="fr">.....</li>
         </ul>
     </description>
     <launchable type="desktop-id">io.github.hafmed.Hydraulics-Channel-GVF.desktop</launchable>
@@ -89,7 +87,7 @@
     </releases>
     <content_rating type="oars-1.1" />
     <developer id="org.hafsoftdz">
-        <name>Mohamed HAFIANE></name>
+        <name>Mohamed HAFIANE</name>
     </developer>
     <update_contact>thakir.dz@gmail.com
     </update_contact>
