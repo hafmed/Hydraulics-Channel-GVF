@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.19)
 project(hydraulics_channel_gvf LANGUAGES CXX)
 
-set(APP_VERSION 4.5.9) #21-9-2020 -25-7-2021 -9-8-2021 -25-7-2022 ver 4.5.1 le 25-3-2023ver 4.5.7 le 29-4-2023 4.5.9 le 5-5-2023
+set(APP_VERSION 4.7.7) #21-9-2020 -25-7-2021 -9-8-2021 -25-7-2022 ver 4.5.1 le 25-3-2023ver 4.5.7 le 29-4-2023 4.5.9 le 5-5-2023
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
