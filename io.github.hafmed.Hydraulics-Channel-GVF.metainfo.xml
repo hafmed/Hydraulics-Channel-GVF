@@ -73,6 +73,17 @@
     </description>
     <launchable type="desktop-id">io.github.hafmed.Hydraulics-Channel-GVF.desktop</launchable>
     <releases>
+        <release version="4.7.7" date="2026-09-01">
+            <url type="details">https://sites.google.com/site/courshaf/</url>
+            <description>
+                <p>Latest stable release</p>
+                <p xml:lang="fr">Dernière version stable</p>
+                <ul>
+                    <li>Minor bug fixes</li>
+                    <li xml:lang="fr">Corrections de bugs mineurs</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.5.9" date="2025-08-27">
             <url type="details">https://sites.google.com/site/courshaf/</url>
             <description>
@@ -93,6 +104,7 @@
     </update_contact>
     <url type="homepage">https://sites.google.com/site/courshaf/</url>
     <url type="bugtracker">https://github.com/hafmed/Hydraulics-Channel-GVF/issues</url>
+    <url type="vcs-browser">https://github.com/hafmed/Hydraulics-Channel-GVF</url>
     <screenshots>
         <screenshot type="default">
             <image>https://raw.githubusercontent.com/hafmed/Hydraulics-Channel-GVF/refs/heads/main/Screenshot/Screenshot_1.png</image>
