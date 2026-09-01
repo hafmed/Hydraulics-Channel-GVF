@@ -1907,7 +1907,7 @@ void hydraulics_channel_gvf::on_pushButton_about_clicked()
     msgBox.setTextFormat(Qt::RichText);
     QString pubabout=tr("Avec différentes méthodes numériques cette application simule l’écoulement graduellement varié (GVF) : Calcul des courbes de remous ; \n")+
             "Ver. "+ APP_VERSION +tr(" sur Linux, Windows et Android ; \n")+
-            "(27-08-2025)"+"; "+
+            "(01-09-2026)"+"; "+
             ///"("+ QString("%1").arg(BLD_DATE) +tr(") ; ")+
             "\n HAFIANE Mohamed ; e-mail"+ tr(" pour (feedback) :")+" <a href=\"mailto:thakir.dz@gmail.com?"+
             "subject=About%20Application%20hydraulics_channel_gvf\">thakir.dz@gmail.com</a>"+
